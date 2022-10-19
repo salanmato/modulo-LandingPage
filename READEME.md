@@ -4,7 +4,7 @@ Projeto construído no módulo Landing Page do curso JavaScript e TypeScript do 
 
 [Link do curso](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
 
-[Acesse aqui](https://salanmato.github.io/nlw-esports-explorer/)
+[Acesse aqui](https://salanmato.github.io/modulo-LandingPage)
 
 ![preview](/github/screenshot.png)
 
