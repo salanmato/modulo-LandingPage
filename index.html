@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Landing Page</title>
+</head>
+<body >
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+   
+    <aside class="menu">
+        <div class="main-menu">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#"><img src="/images/logo.png"></a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">introdução</a></li>
+                    <li><a href="#grid-topic">trabalho</a></li>
+                    <li><a href="#gallery-topic">portfólio</a></li>
+                    <li><a href="#contact">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </aside>
+    <div class="topgap"></div>
+    <section id="intro" class="main-content">
+        <div class="main-text">
+            <h2><b>Filme de suspense coreano,
+                desenho japonês e futebol brasileiro:</b> O que você precisa saber sobre @salanmato!
+            </h2>
+            <p> Oi! Meu nome é Alan. Sou paulistano, designer gráfico, editor de vídeo e muito curioso. Gosto de aprender sobre esportes, tecnologia e artes visuais. Essa página é algo entre um
+                portfólio e um 'sobre mim', ou como ela se definir melhor!</p>
+        </div>
+        <div class="block">
+
+        </div>
+
+    </section>
+      
+    </section>
+
+    <section class="grid-topic" id="grid-topic">
+        <div class="grid-div">
+            <div> <h2>ATUAÇÃO NO MERCADO</h2></div>
+            <div class="text-grid">
+            <article>
+                <h3>Edição de Vídeo</h3>
+                <p> Atuei durante três anos filmando e editando vídeoaulas para graduação, pós-graduação e cursos livres.</p>
+            </article>
+            
+            <article>
+                <h3>Motion Design</h3>
+                <p> Tenho alguns projetos autorais com motion design, de gifs a kinect type!</p>
+            </article>
+            
+            <article>
+                <h3>Design Gráfico</h3>
+                <p> Identidade Visual, Social Media, Stream packs e até criação de mockups. Com Photoshop e Illustrator eu faço muita coisa!
+                </p>
+            </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-topic" id="gallery-topic">
+        <div> 
+            <h2>Portfólio</h2>
+            <p> Alguns dos meus projetos favoritos.</p>
+        </div>
+        <div class="img-grid">
+            <div class="img" >
+               <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/150778887/SALANMATO-IDVISUAL">
+                    <img src="/images/logo-salanmato.jpg"></a> 
+            </div>
+
+            <div class="img">
+                <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/120083633/NIKE-COURT-ROYALE-Ghost-Project">
+                    <img src="/images/court-royale.jpg"></a>
+            </div>
+            <div class="img">
+                <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/126557821/Audrey-Nuna-damn-Right-Animated-Poster">
+                    <img src="/images/audrey-noona-damright.jpg"></a>
+            </div>
+            <div class="img">
+                <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/154274065/BRASIL-NA-COPA-GIFS">
+                    <img src="/images/baila-vini.gif"></a>
+            </div>
+            <div class="img">
+                <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/123425331/BICHOQCORRE-IDVISUAL">
+                    <img src="/images/bichoqcorre.jpg"></a>
+            </div>
+            <div class="img">
+                <a rel="nofollow" target="_blank" href="https://www.behance.net/gallery/151720493/SEP-2022-POSTER-COLLECTION">
+                    <img src="/images/poster-collection.jpg"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <div class="contact-text">
+            <h2>E aí, gostou do que viu?</h2>
+            <p> Esse site aqui é uma das minhas primeiras experiências com front-end, foi feito com muita curiosidade e carinho.</p>
+        </div>
+        <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Deixe seu recado, mensagem ou ideia.Vamos trabalhar juntos!</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Seu e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea type="textarea" name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">Clica pra enviar!</button>
+                    </div>
+
+
+            </fieldset>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <p><a rel="nofollow" target="_blank" href="https://beacons.ai/salanmato">Feito com 👀 por salanmato</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#">❱</a>
+</body>
+</html>
